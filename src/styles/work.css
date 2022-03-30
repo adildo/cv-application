@@ -1,0 +1,31 @@
+div#tasks {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: stretch;
+}
+
+#tasks input{
+    width: 100%;
+}
+
+#work{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border: solid;
+    margin: 0.5em;
+    padding: 1em;
+}
+#workList{
+    display: flex;
+    flex-direction: column;
+}
+#workItem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 1em;
+}
+span{
+    color: red;
+}

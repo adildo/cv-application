@@ -1,0 +1,21 @@
+#education{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    border: solid;
+    margin: 0.5em;
+    padding: 1em;
+}
+#eduList{
+    display: flex;
+    flex-direction: column;
+}
+#eduItem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 1em;
+}
+span{
+    color: red;
+}

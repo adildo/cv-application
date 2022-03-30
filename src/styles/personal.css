@@ -1,0 +1,30 @@
+body {
+    width: 100vw;
+    margin: 0;
+}
+form {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em 3em;
+}
+input {
+    width: 100%;
+}
+div {
+    display: grid;
+    justify-self: center;
+}
+button {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#personal {
+    background-color: azure;
+    border: solid;
+    margin: 0.5em;
+    padding: 1em;
+}
+button {
+    margin: 0.5em;
+}
